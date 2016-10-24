@@ -1,7 +1,7 @@
 # donut-countdown
-donut-countdown is an elegant countdown js configurable element
+donut-countdown is an elegant js configurable element
 
-current demo https://jsfiddle.net/rctry8rj/9/
+current demo https://jsfiddle.net/rctry8rj/10/
 
 ### Dependencies
  - jquery (2.0.0)
