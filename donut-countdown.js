@@ -1,3 +1,5 @@
+//forked from https://github.com/johnschult/jquery.countdown360
+
 (function ($, window, document, undefined) {
   var pluginName = "countdown360",
     defaults = {
