@@ -3,14 +3,14 @@
   var pluginName = "countdown360",
     defaults = {
       radius: 15.5, // radius of arc
-      strokeStyle: "#477050", // the color of the stroke
+      strokeStyle: "#FF5733", // the color of the stroke
       strokeWidth: undefined, // the stroke width, dynamically calulated if omitted in options
-      fillStyle: "#8ac575", // the fill color
-      fontColor: "#477050", // the font color
+      fillStyle: "#FFC30F", // the fill color
+      fontColor: "#FFFFFF", // the font color
       fontFamily: "sans-serif", // the font family
       fontSize: undefined, // the font size, dynamically calulated if omitted in options
       fontWeight: 700, // the font weight
-      autostart: true, // start the countdown automatically
+      autostart: false, // start the countdown automatically
       seconds: 10, // the number of seconds to count down
       label: ["second", "seconds"], // the label to use or false if none
       startOverAfterAdding: true, // Start the timer over after time is added with addSeconds
@@ -178,7 +178,6 @@ var countdown = $("#countdown").countdown360({
   seconds: 20,
   strokeWidth: 5,
   label: ['sec', 'secs'],
-  fontColor: '#FFFFFF',
   autostart: false,
   onComplete: function() {
     console.log('done');
