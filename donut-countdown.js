@@ -1,5 +1,4 @@
-//forked from https://github.com/johnschult/jquery.countdown360
-
+//based on https://github.com/johnschult/jquery.countdown360 which is MIT licensed
 (function ($, window, document, undefined) {
   var pluginName = "countdown360",
     defaults = {
